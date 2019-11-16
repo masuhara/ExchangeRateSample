@@ -1,0 +1,1600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C0285F9307F560236DBBAB9ABB71A1 /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609C039AD4181652A087A1F317428F9 /* DateComponents+Extras.swift */; };
+		01C6CE891855082D09E81FC2939D6D24 /* KafkaRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A2A00692DF53D63973E39E0811489B /* KafkaRefresh-dummy.m */; };
+		0255977F2361530463EDFA54FBE95AB2 /* UIScrollView+KafkaConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A47CE86F6268509A10FA9EA105D9D18B /* UIScrollView+KafkaConfiguration.m */; };
+		0356B3230BBCA4E5A88A63081E5FE488 /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE3F03FC516576CF4B86A3B9D78AC8C /* AssociatedValues.swift */; };
+		080BFDE821A720DF4056B00A5E3F8432 /* KafkaRefreshStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A53FD5A1B37E8D4E24765731986F5A /* KafkaRefreshStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5191F08C0AE06FFBB5967A2409F678 /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C8890C5173F81C9C6EBF334A2C5DB2 /* DateInRegion+Compare.swift */; };
+		0CDE9CEADAB4DE26759A34B46E42ADD0 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA92FB72817A0755CE38EA94651458A /* DateRepresentable.swift */; };
+		10C666F7E8B4225628C63DAC8B332CDD /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92FAE34F320D4FE86541E2E897A2546 /* Formatter+Protocols.swift */; };
+		13E86A1B406E1457F725156B031CDF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		142A94B255B728AD793A250F0471F990 /* KafkaReplicatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 83ADBEE1585F77B68D7490D7466F2574 /* KafkaReplicatorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14ECF6E40B0356170FEDE170B2EB6F2F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF21177C5FBAEAFA79DF283822824DE /* Request.swift */; };
+		1D693D373A835B0FDD117F61231381B5 /* KafkaArrowFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 252B726E25AF06B830BB28C1491DC5A5 /* KafkaArrowFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274F4600401C940169E331BF0DAAAACE /* KafkaAnimatableProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C537B2C01215769C1DC8E76AB7AFBB /* KafkaAnimatableProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2751CB32D956E9C8D4784ECB90E89E13 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A084BD8851FAE01269FA594B57A94 /* Int+DateComponents.swift */; };
+		29C63AB0D159A830DBD4F8E61F5CE5DE /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4AECDB013812115AA68C23F2DD7DC1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2F3883A6744D1622C48AEACBD905C4 /* KafkaRefreshDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9EDC59BD5BBF91AA47D5D348212911 /* KafkaRefreshDefaults.m */; };
+		2BEDBD8055D20395EB6E697ABA6D10E7 /* KafkaArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE47FB2CD8C59C7DB360FF553E6097 /* KafkaArcLayer.m */; };
+		2F51BB150F6189A32ED0B56E2D5C285E /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC75E30912BE5647042A89C9E779FE1 /* TimeInterval+Formatter.swift */; };
+		2FD8B6D7E5F95B2A17470DC2AECC8AFA /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93B66792D2C0AF3D2465396FE2C99A /* TimePeriodProtocol.swift */; };
+		3B4A8D96B6F8BC5A98DBAFDAC2EA453A /* KafkaRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29907C0ABBF5AECA66322EB770AE3907 /* KafkaRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F369D10BC79B854D9B55E0ECF85FD3D /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E20371941201738C66C4C719B9147F7 /* Image.bundle */; };
+		4264F2D03BFB1CB2232CBCB196AAFA85 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098CA83455574313B95BACB7E35CA74 /* TimePeriodCollection.swift */; };
+		444945DC20C79D352A2D9949E81D23FC /* UIScrollView+KafkaRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8A20F3D375A136902FD3D6107C3BD /* UIScrollView+KafkaRefreshControl.m */; };
+		4550D2D6F53B1C4D558C70287B30977A /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757EB6A3B86C76BAD298B0C58977570C /* TimePeriod.swift */; };
+		469B28092956C7C10809FE250DDF25E2 /* KafkaRefreshDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CD7676ABF9A14898B5B522FBCF5ADA /* KafkaRefreshDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4707CF10C0AEA43C60A64011760AEB06 /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C01F6FF17B6843ECC76E5536479910C /* ISOParser.swift */; };
+		48A4E9A09BA077244D124A51827B56FC /* UIScrollView+KafkaConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 045EEDC410FA5BAB72EE8C1D538DA432 /* UIScrollView+KafkaConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4920AD2B3D668DB550BEDED6747F925B /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF451AD24D9C27DFD1B5E29E125D26 /* ServerTrustPolicy.swift */; };
+		4CB1B721E1037321402210FF99C497EB /* KafkaRingIndicatorHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1001B34E96EBED32C483293C8FC8E4 /* KafkaRingIndicatorHeader.m */; };
+		4DBC686156557C96ABDA1D947219A3F1 /* Pods-ExchangeAPISample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C10ABD3C989B704CD9BDEAF104ADF7 /* Pods-ExchangeAPISample-dummy.m */; };
+		4DD028685903C342A48F87F84DF07336 /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD7CF7B0D8422B165B72CA4764D675 /* TimePeriod+Support.swift */; };
+		4EF05005D3B911A51B4E29C3B67CDB90 /* SwiftDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B6C57716C912FBB87EB2EA81069E9 /* SwiftDate-dummy.m */; };
+		505B75241DCEA8C1FBF9F479C2DDEF31 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0972A5B0B522874CE3A8AC1D24D023 /* Timeline.swift */; };
+		50B85B1D5899555461926B8F2D5E8AA4 /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE994975FAA565126908EDE63BFE5DF /* DateInRegion+Create.swift */; };
+		5201262FA627E0176981738421DDB83E /* KafkaRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A48798F19CE22ECEF39470F15FEBA6 /* KafkaRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559368DD6966DB1193B3FD6E7CBF5FED /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CF755676CFEE13FE09B562CB15BB25 /* Alamofire-dummy.m */; };
+		56808256C27278A1232DDC96ED80AF7A /* Pods-ExchangeAPISample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0287AC77B51B315575EE9BB29D970325 /* Pods-ExchangeAPISample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594494BAB3E029862D7009DE60FCC904 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E118F37357800A9DDA7DDCD97CAED9 /* TaskDelegate.swift */; };
+		5B1086B0A866704A6CAF72B5A47582C6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A124F2F358E417AE339D824E5F73E /* Alamofire.swift */; };
+		5B3B93827E37A5D724404A95761E9CA0 /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E7C3AD8CF316BA3D458F2DD471AA7 /* DotNetParserFormatter.swift */; };
+		5BB5D2CA64266E8AA745A50FA835D9AB /* KafkaRingIndicatorFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9062CAB82D83DB6CD95A99542CB17443 /* KafkaRingIndicatorFooter.m */; };
+		5C2F9E5485166B59DD032D7DF4C29CF0 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB4C4B7E500F4A7761DB8D270A14C8 /* Response.swift */; };
+		6022B9E4B5490EF78C123149ACF7FBD7 /* KafkaRingIndicatorFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CCACCA8AF2B445889ED0C4ADE48705 /* KafkaRingIndicatorFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62EDD7EB2904070ECA58EA9A8A8AED68 /* KafkaHeadRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B886410F7D5272C260772B086D3A112 /* KafkaHeadRefreshControl.m */; };
+		6347B1BA6D146FE1BF6D4C140D5CDA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		65012EE6BEE1B12F129462507F14DB54 /* KafkaHeadRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1D07D6BA3E9A0A45B913967BE142E2 /* KafkaHeadRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6558540BC0664EEA010A1A5A1297E04B /* KafkaRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDC6DFFAA1C1E9A7A3FCC30A47496E8 /* KafkaRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FFC4015B005E0CB692C57C4C0B1D04 /* KafkaArrowHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18965C0022BC5DB350B03A862576DB87 /* KafkaArrowHeader.m */; };
+		67698F59D3B45AA2390743DD119A6E28 /* langs in Resources */ = {isa = PBXBuildFile; fileRef = 2FED0021EF99521AD5FC65CCFDED6B6B /* langs */; };
+		6B5DAAEDA01ABEE16484AAE76F6A893C /* KafkaArrowHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EC2A71602E7FD2F347C667B0FD71F2 /* KafkaArrowHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FEF35C0C025DBECCC831F60F8809B81 /* RelativeFormatterLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD44AC2F2EE1C0230C826AB8F6E2733 /* RelativeFormatterLanguage.swift */; };
+		7280BEAE8C78F704E9C9512BE70855A9 /* KafkaReplicatorFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 88384E3996C6F3E432B9E9CB06219503 /* KafkaReplicatorFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C2F0877FAB758F102C1D5FB6641559 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54998F17C198AE4996A85D4491A43492 /* NetworkReachabilityManager.swift */; };
+		73956DF0959955ADA11B3EA92ECD0249 /* TimeStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C4D2DB47F9C23AF7A7563ECDC8364 /* TimeStructures.swift */; };
+		763EA582B030AB9A2FC93F6C1AF1EF19 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F84A3A21AEA3AD0CF8A3C840DE19A3 /* SwiftyJSON-dummy.m */; };
+		7C7EE952DE4F1265665F2DF0C480701D /* KafkaCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D884EA31EA0BC63C2C5DA735F1435 /* KafkaCategories.m */; };
+		7F3426503C0EB4D1F7F5FCA818ED7017 /* KafkaNativeFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A785C03D1D6674F3FE2A53678CFF3A00 /* KafkaNativeFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F8C275808694008AAB0363D03E4B799 /* KafkaReplicatorLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5697DA7B7E82A98EF3F13057B2BF0E7 /* KafkaReplicatorLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825CF6B96852C6FFFB6C02BFA892738C /* KafkaReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 670281A93E086AF57694DB340CED7778 /* KafkaReplicatorLayer.m */; };
+		86B9D3DA0A2285910D2A49CA824F72F4 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B765FFECBC5455691F8EF145013DD1 /* Calendars.swift */; };
+		8A12BE1E757E3377749604D05A71B62F /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0811C13E02982C45E3139B36F623 /* Region.swift */; };
+		8B490472E57BCC79F261FD6AF3BFB78C /* KafkaNativeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 938FE8FD0BC4B661D57154017C9B9661 /* KafkaNativeHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D27793BA08B56CC2EA0CAABFD90D95F /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9084356D4CBDA42CC98E43C410837F7 /* DateInRegion+Components.swift */; };
+		91D97A831539D858414AF4A2EBB73733 /* KafkaReplicatorHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 355DE7CC9BCF0574A2A0B6CDA892FCF8 /* KafkaReplicatorHeader.m */; };
+		93BBBCB48C7E62D2566A64D22BB0FF6C /* KafkaNativeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EA5231205C761F94C0B1CB67B9A900 /* KafkaNativeHeader.m */; };
+		949485FB49A826E2CC3A65DEEDE87F36 /* KafkaFootRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B54C19A37575BB7505EB92E8354E8D /* KafkaFootRefreshControl.m */; };
+		99DB4D571B6E1A14D5498F13AAA1DE90 /* SwiftDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D484CB12CF844B014054AE8EA8CB1482 /* SwiftDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3A84CBE9137A25E1855BD24489175F /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E558FEA4C07AA2CF6E35503774720875 /* SwiftDate.swift */; };
+		9A8A351F1D9C74FEDCA287DCB839AE70 /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3ABD736FEF6FB4181485247B59CB4C /* ISOFormatter.swift */; };
+		9AF95B4E81533F55DCE428194C34A8BD /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8D3EC6258BC862E0E192C86193C06 /* Date+Math.swift */; };
+		9E360663D52D2731D91211BE95832124 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DCD3C6E57371CF68EF53D0CD2F972 /* Date.swift */; };
+		A09FF5A2ECD526AC8A8ED424356A1CE1 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF0F9483CCC45EE35AA2759E0CD663 /* Date+Components.swift */; };
+		A1EC340A876BDB95BFD91D67070E59C0 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EB8820AE448F985817039E755E11 /* TimePeriodChain.swift */; };
+		A49B4CC2A13620C02F94CE393EA20013 /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731390853D11924AEA9919899240269 /* DateInRegion+Math.swift */; };
+		A5ADEF55257E4C1A482BF072C205F388 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312D31D90C6ECDE35BF1D2C75A027FA3 /* ParameterEncoding.swift */; };
+		A6FD039647E18455A84566DA57EEE7BE /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08469E2E6FFECC1AF71562A15261EBB /* Date+Create.swift */; };
+		A8F84C3B833DA5B21A70ED65373220FC /* KafkaArrowFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3125201AB7FBEDE51AD5B25DBF19E22E /* KafkaArrowFooter.m */; };
+		ABAEB9DEE3CE05729A9442CFA1988407 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394362001B9599D082243041C1FF32F0 /* SessionManager.swift */; };
+		ADB18D94C4F71AE2FCE388100D556B0F /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1026398A5604F0835CDB60FE6EB41878 /* ResponseSerialization.swift */; };
+		ADE4061840F41AAE502C249F73B2B97F /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC2FCF4098AE24DAC7643A182B7AAE /* Locales.swift */; };
+		B082FA7223428C8DE32F7DE7F5AF441C /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDD84525AFCB90C0CDAA169FB074055 /* AFError.swift */; };
+		B2E54789768E4F4EE35F11E0034C7383 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E92C4F9F21E0E42A35537431EF19B6B /* Notifications.swift */; };
+		B2F80478DA539CD47E33C4C8FF209D97 /* KafkaRefreshProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7675692B4BA18DE4C7A0693FA1AB3A /* KafkaRefreshProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B384EE6C41357D4DCBCA452E9C0E17BD /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223F4EFBE6392C34E4797EA76CD143 /* RelativeFormatter.swift */; };
+		B4E048244C2E4391A3125966AB59D518 /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE5493D5B1CCFA0115D795E3F95F5E /* Date+Compare.swift */; };
+		B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDAB83515C9F016147CD96FDA07DC28 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B9F6DA9BE6BE3679EC77D89E028E73 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D493732008DE802E81EFEA753DA4A8 /* SwiftyJSON.swift */; };
+		B996242D95BC6493ED4299EFE3F620E3 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F89188E3D9B18DAAEB709BA201B615 /* Commons.swift */; };
+		BA6D4D69802EBF7C16A65FAE1F8965C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BBAB55AB91DE3738B8CAC91476A286B3 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1264F30D569DEB2C426C6EB02B080 /* DateInRegion.swift */; };
+		C07E921083D41F9862B610B234E6C95C /* KafkaArcLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A761D034058C3C4B40D8B87C49E3FA9D /* KafkaArcLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4774E971207E3CA85B4F564A2EB32D1 /* UIScrollView+KafkaRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C0832FB20B6ECBC185DA0A3BD285838C /* UIScrollView+KafkaRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD3DB9C4F5764897AA6948C362E59FC0 /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F310213D094F87CF5227023BDE15A8 /* RelativeFormatter+Style.swift */; };
+		D022D2F32C79ECCCE1E7EEB13014E061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D2B384893454A891D32CB20A53E4EDAF /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671EFE0930DA4850AB60EDCBFFB225A /* DispatchQueue+Alamofire.swift */; };
+		D5794C815C952EFBFCBC4644F6366FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D583829CA1D3C6B9B8F5C085B1D597EF /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E279B262B3333D7638C1859AF089896A /* Validation.swift */; };
+		E1A5348DFF4617A83287EA2C3EE5B32A /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4E16EC38D5E4D3499B52852913DBF /* String+Parser.swift */; };
+		E28AB6EA4664A036388EFFBCF5D6C116 /* KafkaFootRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F966FB916673DB0093D2E958A103FC9E /* KafkaFootRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BA58DE1AA8F11BAA7E8817D8AB509C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE466BFC88CB3998BED1CE852ED048B9 /* Result.swift */; };
+		E8F4DD959B6DC854FED0C7201DB0E283 /* KafkaRingIndicatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C03A9D40ABD17737B0CE353F11B8C299 /* KafkaRingIndicatorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF8EBF036BB698E5124D67F1B4B12456 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08236E0268877B3DFBD769594149A659 /* Zones.swift */; };
+		F040A57164CF71866E735B03DEE616F2 /* KafkaRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D1E981221D3ED4540BD1EC377F3069 /* KafkaRefreshControl.m */; };
+		F23C3D28F5E3A5A3C00083BD48AD3EFF /* KafkaNativeFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB18A74D5F89B45D1EE56320DBA2C36 /* KafkaNativeFooter.m */; };
+		F2D86CE788D3FDD77B85463480B87B89 /* KafkaReplicatorFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB436A582FA6C06DA6D6EB1E09DDB677 /* KafkaReplicatorFooter.m */; };
+		F46996416F47B29559B3B3F846341888 /* KafkaCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = DD541945C84184BD3E3CC3C5379C7B8A /* KafkaCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D82D78C14BF258042CDA3C1B15B7E1 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADC902E34DD5C8853BC1C9403B8852 /* MultipartFormData.swift */; };
+		FB5B706CB10728CC42BF7CDD595F9F04 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BBE1DBA60EAE4F0AAA3E538C01543 /* TimePeriodGroup.swift */; };
+		FFB9BA683C701138C08A211F3E192F56 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF40F8A1E6C1404A6BADB554733ED8 /* SessionDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45926DBAEB4D18EF2680C26F67065F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E064E67BAAB46555CF0AC477B550A4EE;
+			remoteInfo = KafkaRefresh;
+		};
+		724667EA54F81C79F10B098DB6F37DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6038CE6006EFBE9D905454CF01909C42;
+			remoteInfo = SwiftDate;
+		};
+		C6E5C1F502E7FBA3752ADF785D7DD3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		FC82AE9B9304C5A292589BC3CBC43988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0099EB8820AE448F985817039E755E11 /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodChain.swift; sourceTree = "<group>"; };
+		0287AC77B51B315575EE9BB29D970325 /* Pods-ExchangeAPISample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExchangeAPISample-umbrella.h"; sourceTree = "<group>"; };
+		04223F4EFBE6392C34E4797EA76CD143 /* RelativeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatter.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter.swift; sourceTree = "<group>"; };
+		045EEDC410FA5BAB72EE8C1D538DA432 /* UIScrollView+KafkaConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KafkaConfiguration.h"; path = "KafkaRefresh/Configuration/UIScrollView+KafkaConfiguration.h"; sourceTree = "<group>"; };
+		04B05EBC34C5BF58DF699A98716BF896 /* Pods-ExchangeAPISample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExchangeAPISample.release.xcconfig"; sourceTree = "<group>"; };
+		08236E0268877B3DFBD769594149A659 /* Zones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zones.swift; path = Sources/SwiftDate/Supports/Zones.swift; sourceTree = "<group>"; };
+		09FE47FB2CD8C59C7DB360FF553E6097 /* KafkaArcLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaArcLayer.m; path = KafkaRefresh/UIKit/LayerKit/KafkaArcLayer.m; sourceTree = "<group>"; };
+		0DA5AFC26B12F2E5F6F0517352AE9E37 /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
+		1026398A5604F0835CDB60FE6EB41878 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		11D1E981221D3ED4540BD1EC377F3069 /* KafkaRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRefreshControl.m; path = KafkaRefresh/Core/KafkaRefreshControl.m; sourceTree = "<group>"; };
+		15E118F37357800A9DDA7DDCD97CAED9 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		1731390853D11924AEA9919899240269 /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Math.swift"; sourceTree = "<group>"; };
+		18965C0022BC5DB350B03A862576DB87 /* KafkaArrowHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaArrowHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaArrowHeader.m; sourceTree = "<group>"; };
+		19BB4C4B7E500F4A7761DB8D270A14C8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		1A93B66792D2C0AF3D2465396FE2C99A /* TimePeriodProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodProtocol.swift; path = Sources/SwiftDate/TimePeriod/TimePeriodProtocol.swift; sourceTree = "<group>"; };
+		1AB18A74D5F89B45D1EE56320DBA2C36 /* KafkaNativeFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaNativeFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaNativeFooter.m; sourceTree = "<group>"; };
+		1AE994975FAA565126908EDE63BFE5DF /* DateInRegion+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Create.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Create.swift"; sourceTree = "<group>"; };
+		1EDC6DFFAA1C1E9A7A3FCC30A47496E8 /* KafkaRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefresh.h; path = KafkaRefresh/KafkaRefresh.h; sourceTree = "<group>"; };
+		2098CA83455574313B95BACB7E35CA74 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodCollection.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodCollection.swift; sourceTree = "<group>"; };
+		241099509B62F89880D2BD21E472CE4E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252B726E25AF06B830BB28C1491DC5A5 /* KafkaArrowFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaArrowFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaArrowFooter.h; sourceTree = "<group>"; };
+		27C074FCB88A130EB41E55F643627991 /* Pods_ExchangeAPISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExchangeAPISample.framework; path = "Pods-ExchangeAPISample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29907C0ABBF5AECA66322EB770AE3907 /* KafkaRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KafkaRefresh-umbrella.h"; sourceTree = "<group>"; };
+		29DC110E76FF446933293EE4A7B5E63D /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EA5231205C761F94C0B1CB67B9A900 /* KafkaNativeHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaNativeHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaNativeHeader.m; sourceTree = "<group>"; };
+		2B1001B34E96EBED32C483293C8FC8E4 /* KafkaRingIndicatorHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRingIndicatorHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaRingIndicatorHeader.m; sourceTree = "<group>"; };
+		2E9D884EA31EA0BC63C2C5DA735F1435 /* KafkaCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaCategories.m; path = KafkaRefresh/Category/KafkaCategories.m; sourceTree = "<group>"; };
+		2FED0021EF99521AD5FC65CCFDED6B6B /* langs */ = {isa = PBXFileReference; includeInIndex = 1; name = langs; path = Sources/SwiftDate/Formatters/RelativeFormatter/langs; sourceTree = "<group>"; };
+		3125201AB7FBEDE51AD5B25DBF19E22E /* KafkaArrowFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaArrowFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaArrowFooter.m; sourceTree = "<group>"; };
+		312D31D90C6ECDE35BF1D2C75A027FA3 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		31B0066F40923465251CC42D8C4E0A5D /* KafkaRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KafkaRefresh.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33EF0F9483CCC45EE35AA2759E0CD663 /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "Sources/SwiftDate/Date/Date+Components.swift"; sourceTree = "<group>"; };
+		350E7C3AD8CF316BA3D458F2DD471AA7 /* DotNetParserFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotNetParserFormatter.swift; path = Sources/SwiftDate/Formatters/DotNetParserFormatter.swift; sourceTree = "<group>"; };
+		355DE7CC9BCF0574A2A0B6CDA892FCF8 /* KafkaReplicatorHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaReplicatorHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaReplicatorHeader.m; sourceTree = "<group>"; };
+		36B8A20F3D375A136902FD3D6107C3BD /* UIScrollView+KafkaRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+KafkaRefreshControl.m"; path = "KafkaRefresh/Core/UIScrollView+KafkaRefreshControl.m"; sourceTree = "<group>"; };
+		37C537B2C01215769C1DC8E76AB7AFBB /* KafkaAnimatableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaAnimatableProtocol.h; path = KafkaRefresh/UIKit/LayerKit/KafkaAnimatableProtocol.h; sourceTree = "<group>"; };
+		394362001B9599D082243041C1FF32F0 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		3C9CB18D53D0C2E50EF4AB1379D593C7 /* Pods-ExchangeAPISample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExchangeAPISample-frameworks.sh"; sourceTree = "<group>"; };
+		3D36782EFB415F88D26D050883079E22 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		3EE3F03FC516576CF4B86A3B9D78AC8C /* AssociatedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedValues.swift; path = Sources/SwiftDate/Supports/AssociatedValues.swift; sourceTree = "<group>"; };
+		3FF1264F30D569DEB2C426C6EB02B080 /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = Sources/SwiftDate/DateInRegion/DateInRegion.swift; sourceTree = "<group>"; };
+		4514BAA3BABBB624A3A4C13E6038D320 /* KafkaRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KafkaRefresh.framework; path = KafkaRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F84A3A21AEA3AD0CF8A3C840DE19A3 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		48B54C19A37575BB7505EB92E8354E8D /* KafkaFootRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaFootRefreshControl.m; path = KafkaRefresh/Core/KafkaFootRefreshControl.m; sourceTree = "<group>"; };
+		4A0972A5B0B522874CE3A8AC1D24D023 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		4A1D07D6BA3E9A0A45B913967BE142E2 /* KafkaHeadRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaHeadRefreshControl.h; path = KafkaRefresh/Core/KafkaHeadRefreshControl.h; sourceTree = "<group>"; };
+		4CAE5493D5B1CCFA0115D795E3F95F5E /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "Sources/SwiftDate/Date/Date+Compare.swift"; sourceTree = "<group>"; };
+		4FDD84525AFCB90C0CDAA169FB074055 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		521814E2221EE57C1BD3274CFAF01EB7 /* KafkaRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KafkaRefresh-Info.plist"; sourceTree = "<group>"; };
+		54998F17C198AE4996A85D4491A43492 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		5D7675692B4BA18DE4C7A0693FA1AB3A /* KafkaRefreshProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshProtocol.h; path = KafkaRefresh/Core/KafkaRefreshProtocol.h; sourceTree = "<group>"; };
+		5EDAB83515C9F016147CD96FDA07DC28 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5EEBFAD126A421D50B08E37B387764FD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		5F9EDC59BD5BBF91AA47D5D348212911 /* KafkaRefreshDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRefreshDefaults.m; path = KafkaRefresh/Default/KafkaRefreshDefaults.m; sourceTree = "<group>"; };
+		6609D63F2871BD66AE0D3728831E8824 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		670281A93E086AF57694DB340CED7778 /* KafkaReplicatorLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaReplicatorLayer.m; path = KafkaRefresh/UIKit/LayerKit/KafkaReplicatorLayer.m; sourceTree = "<group>"; };
+		69C8890C5173F81C9C6EBF334A2C5DB2 /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
+		72EC2A71602E7FD2F347C667B0FD71F2 /* KafkaArrowHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaArrowHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaArrowHeader.h; sourceTree = "<group>"; };
+		757EB6A3B86C76BAD298B0C58977570C /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = Sources/SwiftDate/TimePeriod/TimePeriod.swift; sourceTree = "<group>"; };
+		75BD7CF7B0D8422B165B72CA4764D675 /* TimePeriod+Support.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimePeriod+Support.swift"; path = "Sources/SwiftDate/TimePeriod/TimePeriod+Support.swift"; sourceTree = "<group>"; };
+		76D493732008DE802E81EFEA753DA4A8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		7C01F6FF17B6843ECC76E5536479910C /* ISOParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOParser.swift; path = Sources/SwiftDate/Formatters/ISOParser.swift; sourceTree = "<group>"; };
+		7E92C4F9F21E0E42A35537431EF19B6B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		814E0A9A486D68BD27E1F6CE409509BE /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
+		8390A9397EDB2EA31341F1F9442504DB /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		83ADBEE1585F77B68D7490D7466F2574 /* KafkaReplicatorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaReplicatorHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaReplicatorHeader.h; sourceTree = "<group>"; };
+		85B765FFECBC5455691F8EF145013DD1 /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = Sources/SwiftDate/Supports/Calendars.swift; sourceTree = "<group>"; };
+		88384E3996C6F3E432B9E9CB06219503 /* KafkaReplicatorFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaReplicatorFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaReplicatorFooter.h; sourceTree = "<group>"; };
+		8AF91A4ABCDAB84996CFBCF63BFAD20E /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftDate.modulemap; sourceTree = "<group>"; };
+		8B4AECDB013812115AA68C23F2DD7DC1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		8C936A3AF94CF5483A3C379D1B743F27 /* KafkaRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KafkaRefresh.modulemap; sourceTree = "<group>"; };
+		9062CAB82D83DB6CD95A99542CB17443 /* KafkaRingIndicatorFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRingIndicatorFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaRingIndicatorFooter.m; sourceTree = "<group>"; };
+		938FE8FD0BC4B661D57154017C9B9661 /* KafkaNativeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaNativeHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaNativeHeader.h; sourceTree = "<group>"; };
+		9AD4E16EC38D5E4D3499B52852913DBF /* String+Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Parser.swift"; path = "Sources/SwiftDate/Foundation+Extras/String+Parser.swift"; sourceTree = "<group>"; };
+		9B886410F7D5272C260772B086D3A112 /* KafkaHeadRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaHeadRefreshControl.m; path = KafkaRefresh/Core/KafkaHeadRefreshControl.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E20371941201738C66C4C719B9147F7 /* Image.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Image.bundle; path = KafkaRefresh/Resource/Image.bundle; sourceTree = "<group>"; };
+		9FAF451AD24D9C27DFD1B5E29E125D26 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		A04B5FC25FE6DB490C13A6CADABC781E /* Pods-ExchangeAPISample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExchangeAPISample.modulemap"; sourceTree = "<group>"; };
+		A10C4D2DB47F9C23AF7A7563ECDC8364 /* TimeStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeStructures.swift; path = Sources/SwiftDate/Supports/TimeStructures.swift; sourceTree = "<group>"; };
+		A47CE86F6268509A10FA9EA105D9D18B /* UIScrollView+KafkaConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+KafkaConfiguration.m"; path = "KafkaRefresh/Configuration/UIScrollView+KafkaConfiguration.m"; sourceTree = "<group>"; };
+		A5FC2FCF4098AE24DAC7643A182B7AAE /* Locales.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locales.swift; path = Sources/SwiftDate/Supports/Locales.swift; sourceTree = "<group>"; };
+		A671EFE0930DA4850AB60EDCBFFB225A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		A6F310213D094F87CF5227023BDE15A8 /* RelativeFormatter+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RelativeFormatter+Style.swift"; path = "Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter+Style.swift"; sourceTree = "<group>"; };
+		A761D034058C3C4B40D8B87C49E3FA9D /* KafkaArcLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaArcLayer.h; path = KafkaRefresh/UIKit/LayerKit/KafkaArcLayer.h; sourceTree = "<group>"; };
+		A785C03D1D6674F3FE2A53678CFF3A00 /* KafkaNativeFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaNativeFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaNativeFooter.h; sourceTree = "<group>"; };
+		A92FAE34F320D4FE86541E2E897A2546 /* Formatter+Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Formatter+Protocols.swift"; path = "Sources/SwiftDate/Formatters/Formatter+Protocols.swift"; sourceTree = "<group>"; };
+		ABA92FB72817A0755CE38EA94651458A /* DateRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRepresentable.swift; path = Sources/SwiftDate/DateRepresentable.swift; sourceTree = "<group>"; };
+		ABBF0282BF8E4FFD48A3ED515A60AE5E /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		AC3ABD736FEF6FB4181485247B59CB4C /* ISOFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOFormatter.swift; path = Sources/SwiftDate/Formatters/ISOFormatter.swift; sourceTree = "<group>"; };
+		B08469E2E6FFECC1AF71562A15261EBB /* Date+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Create.swift"; path = "Sources/SwiftDate/Date/Date+Create.swift"; sourceTree = "<group>"; };
+		B10A084BD8851FAE01269FA594B57A94 /* Int+DateComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+DateComponents.swift"; path = "Sources/SwiftDate/Foundation+Extras/Int+DateComponents.swift"; sourceTree = "<group>"; };
+		B6C10ABD3C989B704CD9BDEAF104ADF7 /* Pods-ExchangeAPISample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExchangeAPISample-dummy.m"; sourceTree = "<group>"; };
+		B84A4DB97B8CC0DB782B4BF71E3BE81A /* Pods-ExchangeAPISample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExchangeAPISample-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB02CADF1E9B6FAB58DFE110ED97C59F /* KafkaRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KafkaRefresh-prefix.pch"; sourceTree = "<group>"; };
+		C03A9D40ABD17737B0CE353F11B8C299 /* KafkaRingIndicatorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRingIndicatorHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaRingIndicatorHeader.h; sourceTree = "<group>"; };
+		C06A124F2F358E417AE339D824E5F73E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		C0832FB20B6ECBC185DA0A3BD285838C /* UIScrollView+KafkaRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KafkaRefreshControl.h"; path = "KafkaRefresh/Core/UIScrollView+KafkaRefreshControl.h"; sourceTree = "<group>"; };
+		C1A2A00692DF53D63973E39E0811489B /* KafkaRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KafkaRefresh-dummy.m"; sourceTree = "<group>"; };
+		C286443307B27351A0AD2A3AF3F9B73A /* SwiftDate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftDate-Info.plist"; sourceTree = "<group>"; };
+		C2CF755676CFEE13FE09B562CB15BB25 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C40466A364A874A1527150A76389B00B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		C7A53FD5A1B37E8D4E24765731986F5A /* KafkaRefreshStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshStyle.h; path = KafkaRefresh/Style/KafkaRefreshStyle.h; sourceTree = "<group>"; };
+		C8F89188E3D9B18DAAEB709BA201B615 /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftDate/Supports/Commons.swift; sourceTree = "<group>"; };
+		C9EF40F8A1E6C1404A6BADB554733ED8 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		CAADC902E34DD5C8853BC1C9403B8852 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		CD8DCD3C6E57371CF68EF53D0CD2F972 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/SwiftDate/Date/Date.swift; sourceTree = "<group>"; };
+		CEA8D3EC6258BC862E0E192C86193C06 /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "Sources/SwiftDate/Date/Date+Math.swift"; sourceTree = "<group>"; };
+		D134F31B3959D7002D3A8ECC79553F89 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		D484CB12CF844B014054AE8EA8CB1482 /* SwiftDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-umbrella.h"; sourceTree = "<group>"; };
+		D51E0811C13E02982C45E3139B36F623 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Sources/SwiftDate/DateInRegion/Region.swift; sourceTree = "<group>"; };
+		D8CD7676ABF9A14898B5B522FBCF5ADA /* KafkaRefreshDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshDefaults.h; path = KafkaRefresh/Default/KafkaRefreshDefaults.h; sourceTree = "<group>"; };
+		D9084356D4CBDA42CC98E43C410837F7 /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Components.swift"; sourceTree = "<group>"; };
+		DADDC8BF7340F9CFF66437E1141B2CFD /* Pods-ExchangeAPISample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExchangeAPISample-Info.plist"; sourceTree = "<group>"; };
+		DC2BBE1DBA60EAE4F0AAA3E538C01543 /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodGroup.swift; sourceTree = "<group>"; };
+		DC9E039941D369E5F84635F5F3E1847D /* Pods-ExchangeAPISample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExchangeAPISample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD541945C84184BD3E3CC3C5379C7B8A /* KafkaCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaCategories.h; path = KafkaRefresh/Category/KafkaCategories.h; sourceTree = "<group>"; };
+		DFF21177C5FBAEAFA79DF283822824DE /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		E279B262B3333D7638C1859AF089896A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		E558FEA4C07AA2CF6E35503774720875 /* SwiftDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftDate.swift; path = Sources/SwiftDate/SwiftDate.swift; sourceTree = "<group>"; };
+		E5697DA7B7E82A98EF3F13057B2BF0E7 /* KafkaReplicatorLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaReplicatorLayer.h; path = KafkaRefresh/UIKit/LayerKit/KafkaReplicatorLayer.h; sourceTree = "<group>"; };
+		E609C039AD4181652A087A1F317428F9 /* DateComponents+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extras.swift"; path = "Sources/SwiftDate/Foundation+Extras/DateComponents+Extras.swift"; sourceTree = "<group>"; };
+		E71B6C57716C912FBB87EB2EA81069E9 /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
+		E9CCACCA8AF2B445889ED0C4ADE48705 /* KafkaRingIndicatorFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRingIndicatorFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaRingIndicatorFooter.h; sourceTree = "<group>"; };
+		EAC75E30912BE5647042A89C9E779FE1 /* TimeInterval+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Formatter.swift"; path = "Sources/SwiftDate/Foundation+Extras/TimeInterval+Formatter.swift"; sourceTree = "<group>"; };
+		EB436A582FA6C06DA6D6EB1E09DDB677 /* KafkaReplicatorFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaReplicatorFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaReplicatorFooter.m; sourceTree = "<group>"; };
+		ECD44AC2F2EE1C0230C826AB8F6E2733 /* RelativeFormatterLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatterLanguage.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatterLanguage.swift; sourceTree = "<group>"; };
+		EE466BFC88CB3998BED1CE852ED048B9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		F1A48798F19CE22ECEF39470F15FEBA6 /* KafkaRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshControl.h; path = KafkaRefresh/Core/KafkaRefreshControl.h; sourceTree = "<group>"; };
+		F327AC0B071DA720881FBDD21D73B39E /* Pods-ExchangeAPISample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExchangeAPISample.debug.xcconfig"; sourceTree = "<group>"; };
+		F966FB916673DB0093D2E958A103FC9E /* KafkaFootRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaFootRefreshControl.h; path = KafkaRefresh/Core/KafkaFootRefreshControl.h; sourceTree = "<group>"; };
+		FAC767A96AF9C3685F4B3AC6A47701F6 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		FAF70B14180FDEC311C30AD18E51EFDB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30324E432A9083CFFFDB8D362F20EE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E86A1B406E1457F725156B031CDF3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4611D13C78DAF80E3482BBD453A5C697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D022D2F32C79ECCCE1E7EEB13014E061 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F59F4F98A4C4810A148DF776B9B5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6D4D69802EBF7C16A65FAE1F8965C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B387557F25E872206FB2692344088301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5794C815C952EFBFCBC4644F6366FC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347B1BA6D146FE1BF6D4C140D5CDA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079A91C823D24D54DFCFB7DB26ADAFD7 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				76D493732008DE802E81EFEA753DA4A8 /* SwiftyJSON.swift */,
+				8EE0C86343A21C270755CAEF018A02E1 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		177EF8473496DFE15A21649DDE129F5B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DD541945C84184BD3E3CC3C5379C7B8A /* KafkaCategories.h */,
+				2E9D884EA31EA0BC63C2C5DA735F1435 /* KafkaCategories.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		187E58155DD5EF5CEB5814FCAB1F911B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				045EEDC410FA5BAB72EE8C1D538DA432 /* UIScrollView+KafkaConfiguration.h */,
+				A47CE86F6268509A10FA9EA105D9D18B /* UIScrollView+KafkaConfiguration.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		27AFD355EF5CC512FCAFCCD7256A6234 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB49FC316494B7BE56EA1614B4F29E /* Pods-ExchangeAPISample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43AAD36CA5DD6FE48682B47B3099564F /* KafkaRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1EDC6DFFAA1C1E9A7A3FCC30A47496E8 /* KafkaRefresh.h */,
+				177EF8473496DFE15A21649DDE129F5B /* Category */,
+				187E58155DD5EF5CEB5814FCAB1F911B /* Configuration */,
+				9B4148DEDD8A408BDEE81687BF44C090 /* Core */,
+				F45E72F2D0755302CA633FF0CFB6800C /* Default */,
+				8F0191C635F035250A049351217FC307 /* Resources */,
+				860794BAC9A66ED65935E35D77722699 /* Style */,
+				8648F16AA9E44C3A90B5CB9B3AFC473C /* Support Files */,
+				C937B0EAB4A844B14F399018866BC250 /* UIKit */,
+			);
+			name = KafkaRefresh;
+			path = KafkaRefresh;
+			sourceTree = "<group>";
+		};
+		63998A97439996CB3C11FD949B424B9C /* SwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				3EE3F03FC516576CF4B86A3B9D78AC8C /* AssociatedValues.swift */,
+				85B765FFECBC5455691F8EF145013DD1 /* Calendars.swift */,
+				C8F89188E3D9B18DAAEB709BA201B615 /* Commons.swift */,
+				CD8DCD3C6E57371CF68EF53D0CD2F972 /* Date.swift */,
+				4CAE5493D5B1CCFA0115D795E3F95F5E /* Date+Compare.swift */,
+				33EF0F9483CCC45EE35AA2759E0CD663 /* Date+Components.swift */,
+				B08469E2E6FFECC1AF71562A15261EBB /* Date+Create.swift */,
+				CEA8D3EC6258BC862E0E192C86193C06 /* Date+Math.swift */,
+				E609C039AD4181652A087A1F317428F9 /* DateComponents+Extras.swift */,
+				3FF1264F30D569DEB2C426C6EB02B080 /* DateInRegion.swift */,
+				69C8890C5173F81C9C6EBF334A2C5DB2 /* DateInRegion+Compare.swift */,
+				D9084356D4CBDA42CC98E43C410837F7 /* DateInRegion+Components.swift */,
+				1AE994975FAA565126908EDE63BFE5DF /* DateInRegion+Create.swift */,
+				1731390853D11924AEA9919899240269 /* DateInRegion+Math.swift */,
+				ABA92FB72817A0755CE38EA94651458A /* DateRepresentable.swift */,
+				350E7C3AD8CF316BA3D458F2DD471AA7 /* DotNetParserFormatter.swift */,
+				A92FAE34F320D4FE86541E2E897A2546 /* Formatter+Protocols.swift */,
+				B10A084BD8851FAE01269FA594B57A94 /* Int+DateComponents.swift */,
+				AC3ABD736FEF6FB4181485247B59CB4C /* ISOFormatter.swift */,
+				7C01F6FF17B6843ECC76E5536479910C /* ISOParser.swift */,
+				A5FC2FCF4098AE24DAC7643A182B7AAE /* Locales.swift */,
+				D51E0811C13E02982C45E3139B36F623 /* Region.swift */,
+				04223F4EFBE6392C34E4797EA76CD143 /* RelativeFormatter.swift */,
+				A6F310213D094F87CF5227023BDE15A8 /* RelativeFormatter+Style.swift */,
+				ECD44AC2F2EE1C0230C826AB8F6E2733 /* RelativeFormatterLanguage.swift */,
+				9AD4E16EC38D5E4D3499B52852913DBF /* String+Parser.swift */,
+				E558FEA4C07AA2CF6E35503774720875 /* SwiftDate.swift */,
+				EAC75E30912BE5647042A89C9E779FE1 /* TimeInterval+Formatter.swift */,
+				757EB6A3B86C76BAD298B0C58977570C /* TimePeriod.swift */,
+				75BD7CF7B0D8422B165B72CA4764D675 /* TimePeriod+Support.swift */,
+				0099EB8820AE448F985817039E755E11 /* TimePeriodChain.swift */,
+				2098CA83455574313B95BACB7E35CA74 /* TimePeriodCollection.swift */,
+				DC2BBE1DBA60EAE4F0AAA3E538C01543 /* TimePeriodGroup.swift */,
+				1A93B66792D2C0AF3D2465396FE2C99A /* TimePeriodProtocol.swift */,
+				A10C4D2DB47F9C23AF7A7563ECDC8364 /* TimeStructures.swift */,
+				08236E0268877B3DFBD769594149A659 /* Zones.swift */,
+				F08CF549415A75A40E35463E872671AD /* Resources */,
+				C8AA8920AE989C4A26484CFECB6104FF /* Support Files */,
+			);
+			name = SwiftDate;
+			path = SwiftDate;
+			sourceTree = "<group>";
+		};
+		860794BAC9A66ED65935E35D77722699 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				C7A53FD5A1B37E8D4E24765731986F5A /* KafkaRefreshStyle.h */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		8648F16AA9E44C3A90B5CB9B3AFC473C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C936A3AF94CF5483A3C379D1B743F27 /* KafkaRefresh.modulemap */,
+				31B0066F40923465251CC42D8C4E0A5D /* KafkaRefresh.xcconfig */,
+				C1A2A00692DF53D63973E39E0811489B /* KafkaRefresh-dummy.m */,
+				521814E2221EE57C1BD3274CFAF01EB7 /* KafkaRefresh-Info.plist */,
+				BB02CADF1E9B6FAB58DFE110ED97C59F /* KafkaRefresh-prefix.pch */,
+				29907C0ABBF5AECA66322EB770AE3907 /* KafkaRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KafkaRefresh";
+			sourceTree = "<group>";
+		};
+		8EE0C86343A21C270755CAEF018A02E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D36782EFB415F88D26D050883079E22 /* SwiftyJSON.modulemap */,
+				8390A9397EDB2EA31341F1F9442504DB /* SwiftyJSON.xcconfig */,
+				45F84A3A21AEA3AD0CF8A3C840DE19A3 /* SwiftyJSON-dummy.m */,
+				6609D63F2871BD66AE0D3728831E8824 /* SwiftyJSON-Info.plist */,
+				C40466A364A874A1527150A76389B00B /* SwiftyJSON-prefix.pch */,
+				8B4AECDB013812115AA68C23F2DD7DC1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		8F0191C635F035250A049351217FC307 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E20371941201738C66C4C719B9147F7 /* Image.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B4148DEDD8A408BDEE81687BF44C090 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F966FB916673DB0093D2E958A103FC9E /* KafkaFootRefreshControl.h */,
+				48B54C19A37575BB7505EB92E8354E8D /* KafkaFootRefreshControl.m */,
+				4A1D07D6BA3E9A0A45B913967BE142E2 /* KafkaHeadRefreshControl.h */,
+				9B886410F7D5272C260772B086D3A112 /* KafkaHeadRefreshControl.m */,
+				F1A48798F19CE22ECEF39470F15FEBA6 /* KafkaRefreshControl.h */,
+				11D1E981221D3ED4540BD1EC377F3069 /* KafkaRefreshControl.m */,
+				5D7675692B4BA18DE4C7A0693FA1AB3A /* KafkaRefreshProtocol.h */,
+				C0832FB20B6ECBC185DA0A3BD285838C /* UIScrollView+KafkaRefreshControl.h */,
+				36B8A20F3D375A136902FD3D6107C3BD /* UIScrollView+KafkaRefreshControl.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9D1C11F684232A1556AAC8DD739E67F9 /* HeadKit */ = {
+			isa = PBXGroup;
+			children = (
+				72EC2A71602E7FD2F347C667B0FD71F2 /* KafkaArrowHeader.h */,
+				18965C0022BC5DB350B03A862576DB87 /* KafkaArrowHeader.m */,
+				938FE8FD0BC4B661D57154017C9B9661 /* KafkaNativeHeader.h */,
+				29EA5231205C761F94C0B1CB67B9A900 /* KafkaNativeHeader.m */,
+				83ADBEE1585F77B68D7490D7466F2574 /* KafkaReplicatorHeader.h */,
+				355DE7CC9BCF0574A2A0B6CDA892FCF8 /* KafkaReplicatorHeader.m */,
+				C03A9D40ABD17737B0CE353F11B8C299 /* KafkaRingIndicatorHeader.h */,
+				2B1001B34E96EBED32C483293C8FC8E4 /* KafkaRingIndicatorHeader.m */,
+			);
+			name = HeadKit;
+			sourceTree = "<group>";
+		};
+		9F25975612A58F0DF1F6B7E78B4B356E /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				4FDD84525AFCB90C0CDAA169FB074055 /* AFError.swift */,
+				C06A124F2F358E417AE339D824E5F73E /* Alamofire.swift */,
+				A671EFE0930DA4850AB60EDCBFFB225A /* DispatchQueue+Alamofire.swift */,
+				CAADC902E34DD5C8853BC1C9403B8852 /* MultipartFormData.swift */,
+				54998F17C198AE4996A85D4491A43492 /* NetworkReachabilityManager.swift */,
+				7E92C4F9F21E0E42A35537431EF19B6B /* Notifications.swift */,
+				312D31D90C6ECDE35BF1D2C75A027FA3 /* ParameterEncoding.swift */,
+				DFF21177C5FBAEAFA79DF283822824DE /* Request.swift */,
+				19BB4C4B7E500F4A7761DB8D270A14C8 /* Response.swift */,
+				1026398A5604F0835CDB60FE6EB41878 /* ResponseSerialization.swift */,
+				EE466BFC88CB3998BED1CE852ED048B9 /* Result.swift */,
+				9FAF451AD24D9C27DFD1B5E29E125D26 /* ServerTrustPolicy.swift */,
+				C9EF40F8A1E6C1404A6BADB554733ED8 /* SessionDelegate.swift */,
+				394362001B9599D082243041C1FF32F0 /* SessionManager.swift */,
+				15E118F37357800A9DDA7DDCD97CAED9 /* TaskDelegate.swift */,
+				4A0972A5B0B522874CE3A8AC1D24D023 /* Timeline.swift */,
+				E279B262B3333D7638C1859AF089896A /* Validation.swift */,
+				FE3447ED2DD754E5F3C1CDF937ED9723 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		A8FB49FC316494B7BE56EA1614B4F29E /* Pods-ExchangeAPISample */ = {
+			isa = PBXGroup;
+			children = (
+				A04B5FC25FE6DB490C13A6CADABC781E /* Pods-ExchangeAPISample.modulemap */,
+				DC9E039941D369E5F84635F5F3E1847D /* Pods-ExchangeAPISample-acknowledgements.markdown */,
+				B84A4DB97B8CC0DB782B4BF71E3BE81A /* Pods-ExchangeAPISample-acknowledgements.plist */,
+				B6C10ABD3C989B704CD9BDEAF104ADF7 /* Pods-ExchangeAPISample-dummy.m */,
+				3C9CB18D53D0C2E50EF4AB1379D593C7 /* Pods-ExchangeAPISample-frameworks.sh */,
+				DADDC8BF7340F9CFF66437E1141B2CFD /* Pods-ExchangeAPISample-Info.plist */,
+				0287AC77B51B315575EE9BB29D970325 /* Pods-ExchangeAPISample-umbrella.h */,
+				F327AC0B071DA720881FBDD21D73B39E /* Pods-ExchangeAPISample.debug.xcconfig */,
+				04B05EBC34C5BF58DF699A98716BF896 /* Pods-ExchangeAPISample.release.xcconfig */,
+			);
+			name = "Pods-ExchangeAPISample";
+			path = "Target Support Files/Pods-ExchangeAPISample";
+			sourceTree = "<group>";
+		};
+		B0A2EB556489A26EA70232C7B30ED5FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF70B14180FDEC311C30AD18E51EFDB /* Alamofire.framework */,
+				4514BAA3BABBB624A3A4C13E6038D320 /* KafkaRefresh.framework */,
+				27C074FCB88A130EB41E55F643627991 /* Pods_ExchangeAPISample.framework */,
+				29DC110E76FF446933293EE4A7B5E63D /* SwiftDate.framework */,
+				241099509B62F89880D2BD21E472CE4E /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC13CAC3826E50FF82E678EB10D69F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F25975612A58F0DF1F6B7E78B4B356E /* Alamofire */,
+				43AAD36CA5DD6FE48682B47B3099564F /* KafkaRefresh */,
+				63998A97439996CB3C11FD949B424B9C /* SwiftDate */,
+				079A91C823D24D54DFCFB7DB26ADAFD7 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEC678D8F29D115ABCB350C08C4A69C5 /* FootKit */ = {
+			isa = PBXGroup;
+			children = (
+				252B726E25AF06B830BB28C1491DC5A5 /* KafkaArrowFooter.h */,
+				3125201AB7FBEDE51AD5B25DBF19E22E /* KafkaArrowFooter.m */,
+				A785C03D1D6674F3FE2A53678CFF3A00 /* KafkaNativeFooter.h */,
+				1AB18A74D5F89B45D1EE56320DBA2C36 /* KafkaNativeFooter.m */,
+				88384E3996C6F3E432B9E9CB06219503 /* KafkaReplicatorFooter.h */,
+				EB436A582FA6C06DA6D6EB1E09DDB677 /* KafkaReplicatorFooter.m */,
+				E9CCACCA8AF2B445889ED0C4ADE48705 /* KafkaRingIndicatorFooter.h */,
+				9062CAB82D83DB6CD95A99542CB17443 /* KafkaRingIndicatorFooter.m */,
+			);
+			name = FootKit;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8AA8920AE989C4A26484CFECB6104FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF91A4ABCDAB84996CFBCF63BFAD20E /* SwiftDate.modulemap */,
+				0DA5AFC26B12F2E5F6F0517352AE9E37 /* SwiftDate.xcconfig */,
+				E71B6C57716C912FBB87EB2EA81069E9 /* SwiftDate-dummy.m */,
+				C286443307B27351A0AD2A3AF3F9B73A /* SwiftDate-Info.plist */,
+				814E0A9A486D68BD27E1F6CE409509BE /* SwiftDate-prefix.pch */,
+				D484CB12CF844B014054AE8EA8CB1482 /* SwiftDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDate";
+			sourceTree = "<group>";
+		};
+		C937B0EAB4A844B14F399018866BC250 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BEC678D8F29D115ABCB350C08C4A69C5 /* FootKit */,
+				9D1C11F684232A1556AAC8DD739E67F9 /* HeadKit */,
+				FBF0A80B616F40CD163825961ADE72A3 /* LayerKit */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BC13CAC3826E50FF82E678EB10D69F86 /* Pods */,
+				B0A2EB556489A26EA70232C7B30ED5FA /* Products */,
+				27AFD355EF5CC512FCAFCCD7256A6234 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F08CF549415A75A40E35463E872671AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FED0021EF99521AD5FC65CCFDED6B6B /* langs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F45E72F2D0755302CA633FF0CFB6800C /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				D8CD7676ABF9A14898B5B522FBCF5ADA /* KafkaRefreshDefaults.h */,
+				5F9EDC59BD5BBF91AA47D5D348212911 /* KafkaRefreshDefaults.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		FBF0A80B616F40CD163825961ADE72A3 /* LayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				37C537B2C01215769C1DC8E76AB7AFBB /* KafkaAnimatableProtocol.h */,
+				A761D034058C3C4B40D8B87C49E3FA9D /* KafkaArcLayer.h */,
+				09FE47FB2CD8C59C7DB360FF553E6097 /* KafkaArcLayer.m */,
+				E5697DA7B7E82A98EF3F13057B2BF0E7 /* KafkaReplicatorLayer.h */,
+				670281A93E086AF57694DB340CED7778 /* KafkaReplicatorLayer.m */,
+			);
+			name = LayerKit;
+			sourceTree = "<group>";
+		};
+		FE3447ED2DD754E5F3C1CDF937ED9723 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D134F31B3959D7002D3A8ECC79553F89 /* Alamofire.modulemap */,
+				ABBF0282BF8E4FFD48A3ED515A60AE5E /* Alamofire.xcconfig */,
+				C2CF755676CFEE13FE09B562CB15BB25 /* Alamofire-dummy.m */,
+				FAC767A96AF9C3685F4B3AC6A47701F6 /* Alamofire-Info.plist */,
+				5EEBFAD126A421D50B08E37B387764FD /* Alamofire-prefix.pch */,
+				5EDAB83515C9F016147CD96FDA07DC28 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB6765E2E3A70761E67B40FEAF517BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274F4600401C940169E331BF0DAAAACE /* KafkaAnimatableProtocol.h in Headers */,
+				C07E921083D41F9862B610B234E6C95C /* KafkaArcLayer.h in Headers */,
+				1D693D373A835B0FDD117F61231381B5 /* KafkaArrowFooter.h in Headers */,
+				6B5DAAEDA01ABEE16484AAE76F6A893C /* KafkaArrowHeader.h in Headers */,
+				F46996416F47B29559B3B3F846341888 /* KafkaCategories.h in Headers */,
+				E28AB6EA4664A036388EFFBCF5D6C116 /* KafkaFootRefreshControl.h in Headers */,
+				65012EE6BEE1B12F129462507F14DB54 /* KafkaHeadRefreshControl.h in Headers */,
+				7F3426503C0EB4D1F7F5FCA818ED7017 /* KafkaNativeFooter.h in Headers */,
+				8B490472E57BCC79F261FD6AF3BFB78C /* KafkaNativeHeader.h in Headers */,
+				3B4A8D96B6F8BC5A98DBAFDAC2EA453A /* KafkaRefresh-umbrella.h in Headers */,
+				6558540BC0664EEA010A1A5A1297E04B /* KafkaRefresh.h in Headers */,
+				5201262FA627E0176981738421DDB83E /* KafkaRefreshControl.h in Headers */,
+				469B28092956C7C10809FE250DDF25E2 /* KafkaRefreshDefaults.h in Headers */,
+				B2F80478DA539CD47E33C4C8FF209D97 /* KafkaRefreshProtocol.h in Headers */,
+				080BFDE821A720DF4056B00A5E3F8432 /* KafkaRefreshStyle.h in Headers */,
+				7280BEAE8C78F704E9C9512BE70855A9 /* KafkaReplicatorFooter.h in Headers */,
+				142A94B255B728AD793A250F0471F990 /* KafkaReplicatorHeader.h in Headers */,
+				7F8C275808694008AAB0363D03E4B799 /* KafkaReplicatorLayer.h in Headers */,
+				6022B9E4B5490EF78C123149ACF7FBD7 /* KafkaRingIndicatorFooter.h in Headers */,
+				E8F4DD959B6DC854FED0C7201DB0E283 /* KafkaRingIndicatorHeader.h in Headers */,
+				48A4E9A09BA077244D124A51827B56FC /* UIScrollView+KafkaConfiguration.h in Headers */,
+				C4774E971207E3CA85B4F564A2EB32D1 /* UIScrollView+KafkaRefreshControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FD500616E7B3585CDC612B217AB8EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C63AB0D159A830DBD4F8E61F5CE5DE /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75C96027E5EB3CC0CB93F0D5D4FB2FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DB4D571B6E1A14D5498F13AAA1DE90 /* SwiftDate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E308FF3185BAF6822942926EF3130B3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56808256C27278A1232DDC96ED80AF7A /* Pods-ExchangeAPISample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6038CE6006EFBE9D905454CF01909C42 /* SwiftDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1709A95656E347F9B484C489C050E29E /* Build configuration list for PBXNativeTarget "SwiftDate" */;
+			buildPhases = (
+				D75C96027E5EB3CC0CB93F0D5D4FB2FE /* Headers */,
+				9061F8C664D7956225435CFA0A553344 /* Sources */,
+				30324E432A9083CFFFDB8D362F20EE1B /* Frameworks */,
+				004AA670F452D3618CB5AEEA9EC27D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDate;
+			productName = SwiftDate;
+			productReference = 29DC110E76FF446933293EE4A7B5E63D /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80EECA7EEDBB78EC8A7B26B6CD1A21CD /* Pods-ExchangeAPISample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FD7A1CD5568A50F983A85AF2A7725D /* Build configuration list for PBXNativeTarget "Pods-ExchangeAPISample" */;
+			buildPhases = (
+				E308FF3185BAF6822942926EF3130B3A /* Headers */,
+				CACA70DA72823F7988EA39724D345FAD /* Sources */,
+				B387557F25E872206FB2692344088301 /* Frameworks */,
+				FA6A069B3CE77174CA55C46913013B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6B5DA6FC56F82AF00C5C9B33ACC49C /* PBXTargetDependency */,
+				F3AFFBA6C1F464CDB9F24B6426416661 /* PBXTargetDependency */,
+				F018FD2697146782CA08FFE1DB88A6F5 /* PBXTargetDependency */,
+				FE1E226567BEF2F17F54FD91F0BD7660 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExchangeAPISample";
+			productName = "Pods-ExchangeAPISample";
+			productReference = 27C074FCB88A130EB41E55F643627991 /* Pods_ExchangeAPISample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500983288FD27F691001EEF004174E82 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				D5FD500616E7B3585CDC612B217AB8EF /* Headers */,
+				1C23F93016AD02D1E2389C53E71EF604 /* Sources */,
+				57F59F4F98A4C4810A148DF776B9B5BE /* Frameworks */,
+				04D10243A21F1712662C92EBCC5385D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 241099509B62F89880D2BD21E472CE4E /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E064E67BAAB46555CF0AC477B550A4EE /* KafkaRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A143E8236A9476698E9194F5F6B2BE /* Build configuration list for PBXNativeTarget "KafkaRefresh" */;
+			buildPhases = (
+				BBB6765E2E3A70761E67B40FEAF517BA /* Headers */,
+				B435654E66A5A68DE43BC983A46D6A56 /* Sources */,
+				4611D13C78DAF80E3482BBD453A5C697 /* Frameworks */,
+				40CAC5EE8C948D171669F73AA297A18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KafkaRefresh;
+			productName = KafkaRefresh;
+			productReference = 4514BAA3BABBB624A3A4C13E6038D320 /* KafkaRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */,
+				CFA11E47B3EB3A36AA49F6F7F060CB98 /* Sources */,
+				F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */,
+				28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = FAF70B14180FDEC311C30AD18E51EFDB /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B0A2EB556489A26EA70232C7B30ED5FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				E064E67BAAB46555CF0AC477B550A4EE /* KafkaRefresh */,
+				80EECA7EEDBB78EC8A7B26B6CD1A21CD /* Pods-ExchangeAPISample */,
+				6038CE6006EFBE9D905454CF01909C42 /* SwiftDate */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004AA670F452D3618CB5AEEA9EC27D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67698F59D3B45AA2390743DD119A6E28 /* langs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D10243A21F1712662C92EBCC5385D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CAC5EE8C948D171669F73AA297A18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F369D10BC79B854D9B55E0ECF85FD3D /* Image.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6A069B3CE77174CA55C46913013B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C23F93016AD02D1E2389C53E71EF604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763EA582B030AB9A2FC93F6C1AF1EF19 /* SwiftyJSON-dummy.m in Sources */,
+				B8B9F6DA9BE6BE3679EC77D89E028E73 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9061F8C664D7956225435CFA0A553344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0356B3230BBCA4E5A88A63081E5FE488 /* AssociatedValues.swift in Sources */,
+				86B9D3DA0A2285910D2A49CA824F72F4 /* Calendars.swift in Sources */,
+				B996242D95BC6493ED4299EFE3F620E3 /* Commons.swift in Sources */,
+				B4E048244C2E4391A3125966AB59D518 /* Date+Compare.swift in Sources */,
+				A09FF5A2ECD526AC8A8ED424356A1CE1 /* Date+Components.swift in Sources */,
+				A6FD039647E18455A84566DA57EEE7BE /* Date+Create.swift in Sources */,
+				9AF95B4E81533F55DCE428194C34A8BD /* Date+Math.swift in Sources */,
+				9E360663D52D2731D91211BE95832124 /* Date.swift in Sources */,
+				01C0285F9307F560236DBBAB9ABB71A1 /* DateComponents+Extras.swift in Sources */,
+				0A5191F08C0AE06FFBB5967A2409F678 /* DateInRegion+Compare.swift in Sources */,
+				8D27793BA08B56CC2EA0CAABFD90D95F /* DateInRegion+Components.swift in Sources */,
+				50B85B1D5899555461926B8F2D5E8AA4 /* DateInRegion+Create.swift in Sources */,
+				A49B4CC2A13620C02F94CE393EA20013 /* DateInRegion+Math.swift in Sources */,
+				BBAB55AB91DE3738B8CAC91476A286B3 /* DateInRegion.swift in Sources */,
+				0CDE9CEADAB4DE26759A34B46E42ADD0 /* DateRepresentable.swift in Sources */,
+				5B3B93827E37A5D724404A95761E9CA0 /* DotNetParserFormatter.swift in Sources */,
+				10C666F7E8B4225628C63DAC8B332CDD /* Formatter+Protocols.swift in Sources */,
+				2751CB32D956E9C8D4784ECB90E89E13 /* Int+DateComponents.swift in Sources */,
+				9A8A351F1D9C74FEDCA287DCB839AE70 /* ISOFormatter.swift in Sources */,
+				4707CF10C0AEA43C60A64011760AEB06 /* ISOParser.swift in Sources */,
+				ADE4061840F41AAE502C249F73B2B97F /* Locales.swift in Sources */,
+				8A12BE1E757E3377749604D05A71B62F /* Region.swift in Sources */,
+				CD3DB9C4F5764897AA6948C362E59FC0 /* RelativeFormatter+Style.swift in Sources */,
+				B384EE6C41357D4DCBCA452E9C0E17BD /* RelativeFormatter.swift in Sources */,
+				6FEF35C0C025DBECCC831F60F8809B81 /* RelativeFormatterLanguage.swift in Sources */,
+				E1A5348DFF4617A83287EA2C3EE5B32A /* String+Parser.swift in Sources */,
+				4EF05005D3B911A51B4E29C3B67CDB90 /* SwiftDate-dummy.m in Sources */,
+				9A3A84CBE9137A25E1855BD24489175F /* SwiftDate.swift in Sources */,
+				2F51BB150F6189A32ED0B56E2D5C285E /* TimeInterval+Formatter.swift in Sources */,
+				4DD028685903C342A48F87F84DF07336 /* TimePeriod+Support.swift in Sources */,
+				4550D2D6F53B1C4D558C70287B30977A /* TimePeriod.swift in Sources */,
+				A1EC340A876BDB95BFD91D67070E59C0 /* TimePeriodChain.swift in Sources */,
+				4264F2D03BFB1CB2232CBCB196AAFA85 /* TimePeriodCollection.swift in Sources */,
+				FB5B706CB10728CC42BF7CDD595F9F04 /* TimePeriodGroup.swift in Sources */,
+				2FD8B6D7E5F95B2A17470DC2AECC8AFA /* TimePeriodProtocol.swift in Sources */,
+				73956DF0959955ADA11B3EA92ECD0249 /* TimeStructures.swift in Sources */,
+				EF8EBF036BB698E5124D67F1B4B12456 /* Zones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B435654E66A5A68DE43BC983A46D6A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEDBD8055D20395EB6E697ABA6D10E7 /* KafkaArcLayer.m in Sources */,
+				A8F84C3B833DA5B21A70ED65373220FC /* KafkaArrowFooter.m in Sources */,
+				65FFC4015B005E0CB692C57C4C0B1D04 /* KafkaArrowHeader.m in Sources */,
+				7C7EE952DE4F1265665F2DF0C480701D /* KafkaCategories.m in Sources */,
+				949485FB49A826E2CC3A65DEEDE87F36 /* KafkaFootRefreshControl.m in Sources */,
+				62EDD7EB2904070ECA58EA9A8A8AED68 /* KafkaHeadRefreshControl.m in Sources */,
+				F23C3D28F5E3A5A3C00083BD48AD3EFF /* KafkaNativeFooter.m in Sources */,
+				93BBBCB48C7E62D2566A64D22BB0FF6C /* KafkaNativeHeader.m in Sources */,
+				01C6CE891855082D09E81FC2939D6D24 /* KafkaRefresh-dummy.m in Sources */,
+				F040A57164CF71866E735B03DEE616F2 /* KafkaRefreshControl.m in Sources */,
+				2A2F3883A6744D1622C48AEACBD905C4 /* KafkaRefreshDefaults.m in Sources */,
+				F2D86CE788D3FDD77B85463480B87B89 /* KafkaReplicatorFooter.m in Sources */,
+				91D97A831539D858414AF4A2EBB73733 /* KafkaReplicatorHeader.m in Sources */,
+				825CF6B96852C6FFFB6C02BFA892738C /* KafkaReplicatorLayer.m in Sources */,
+				5BB5D2CA64266E8AA745A50FA835D9AB /* KafkaRingIndicatorFooter.m in Sources */,
+				4CB1B721E1037321402210FF99C497EB /* KafkaRingIndicatorHeader.m in Sources */,
+				0255977F2361530463EDFA54FBE95AB2 /* UIScrollView+KafkaConfiguration.m in Sources */,
+				444945DC20C79D352A2D9949E81D23FC /* UIScrollView+KafkaRefreshControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACA70DA72823F7988EA39724D345FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBC686156557C96ABDA1D947219A3F1 /* Pods-ExchangeAPISample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA11E47B3EB3A36AA49F6F7F060CB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082FA7223428C8DE32F7DE7F5AF441C /* AFError.swift in Sources */,
+				559368DD6966DB1193B3FD6E7CBF5FED /* Alamofire-dummy.m in Sources */,
+				5B1086B0A866704A6CAF72B5A47582C6 /* Alamofire.swift in Sources */,
+				D2B384893454A891D32CB20A53E4EDAF /* DispatchQueue+Alamofire.swift in Sources */,
+				F4D82D78C14BF258042CDA3C1B15B7E1 /* MultipartFormData.swift in Sources */,
+				72C2F0877FAB758F102C1D5FB6641559 /* NetworkReachabilityManager.swift in Sources */,
+				B2E54789768E4F4EE35F11E0034C7383 /* Notifications.swift in Sources */,
+				A5ADEF55257E4C1A482BF072C205F388 /* ParameterEncoding.swift in Sources */,
+				14ECF6E40B0356170FEDE170B2EB6F2F /* Request.swift in Sources */,
+				5C2F9E5485166B59DD032D7DF4C29CF0 /* Response.swift in Sources */,
+				ADB18D94C4F71AE2FCE388100D556B0F /* ResponseSerialization.swift in Sources */,
+				E7BA58DE1AA8F11BAA7E8817D8AB509C /* Result.swift in Sources */,
+				4920AD2B3D668DB550BEDED6747F925B /* ServerTrustPolicy.swift in Sources */,
+				FFB9BA683C701138C08A211F3E192F56 /* SessionDelegate.swift in Sources */,
+				ABAEB9DEE3CE05729A9442CFA1988407 /* SessionManager.swift in Sources */,
+				594494BAB3E029862D7009DE60FCC904 /* TaskDelegate.swift in Sources */,
+				505B75241DCEA8C1FBF9F479C2DDEF31 /* Timeline.swift in Sources */,
+				D583829CA1D3C6B9B8F5C085B1D597EF /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F6B5DA6FC56F82AF00C5C9B33ACC49C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = C6E5C1F502E7FBA3752ADF785D7DD3B6 /* PBXContainerItemProxy */;
+		};
+		F018FD2697146782CA08FFE1DB88A6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDate;
+			target = 6038CE6006EFBE9D905454CF01909C42 /* SwiftDate */;
+			targetProxy = 724667EA54F81C79F10B098DB6F37DB2 /* PBXContainerItemProxy */;
+		};
+		F3AFFBA6C1F464CDB9F24B6426416661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KafkaRefresh;
+			target = E064E67BAAB46555CF0AC477B550A4EE /* KafkaRefresh */;
+			targetProxy = 45926DBAEB4D18EF2680C26F67065F96 /* PBXContainerItemProxy */;
+		};
+		FE1E226567BEF2F17F54FD91F0BD7660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = FC82AE9B9304C5A292589BC3CBC43988 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		41268AF552E2DC6A5873C87C81174F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBF0282BF8E4FFD48A3ED515A60AE5E /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83A0F9BED2BE1DB3060297822DB66B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA5AFC26B12F2E5F6F0517352AE9E37 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/SwiftDate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		962B05337AE1A84514696EB363AFF52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F327AC0B071DA720881FBDD21D73B39E /* Pods-ExchangeAPISample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExchangeAPISample/Pods-ExchangeAPISample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExchangeAPISample/Pods-ExchangeAPISample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96EFDB97F9EFB8EEBBA65C5AA6A9488E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8390A9397EDB2EA31341F1F9442504DB /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99561B55A8341636B04EB438DFBE3E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA5AFC26B12F2E5F6F0517352AE9E37 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/SwiftDate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2C0CF3AED23B7218B6A48BFC26ED5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B05EBC34C5BF58DF699A98716BF896 /* Pods-ExchangeAPISample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExchangeAPISample/Pods-ExchangeAPISample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExchangeAPISample/Pods-ExchangeAPISample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A345BCBDE6C296957161A3E85A47A280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBF0282BF8E4FFD48A3ED515A60AE5E /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5AA89A6D6A6F800F04C1B7AC5B15088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B0066F40923465251CC42D8C4E0A5D /* KafkaRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KafkaRefresh/KafkaRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KafkaRefresh/KafkaRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KafkaRefresh/KafkaRefresh.modulemap";
+				PRODUCT_MODULE_NAME = KafkaRefresh;
+				PRODUCT_NAME = KafkaRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7E18A3E8278024C2F3A5AA8E8C2EFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8390A9397EDB2EA31341F1F9442504DB /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F47FF3A32C59EAA5337B32416980840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B0066F40923465251CC42D8C4E0A5D /* KafkaRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KafkaRefresh/KafkaRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KafkaRefresh/KafkaRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KafkaRefresh/KafkaRefresh.modulemap";
+				PRODUCT_MODULE_NAME = KafkaRefresh;
+				PRODUCT_NAME = KafkaRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A143E8236A9476698E9194F5F6B2BE /* Build configuration list for PBXNativeTarget "KafkaRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47FF3A32C59EAA5337B32416980840D /* Debug */,
+				B5AA89A6D6A6F800F04C1B7AC5B15088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1709A95656E347F9B484C489C050E29E /* Build configuration list for PBXNativeTarget "SwiftDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A0F9BED2BE1DB3060297822DB66B67 /* Debug */,
+				99561B55A8341636B04EB438DFBE3E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500983288FD27F691001EEF004174E82 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E18A3E8278024C2F3A5AA8E8C2EFCF /* Debug */,
+				96EFDB97F9EFB8EEBBA65C5AA6A9488E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FD7A1CD5568A50F983A85AF2A7725D /* Build configuration list for PBXNativeTarget "Pods-ExchangeAPISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962B05337AE1A84514696EB363AFF52E /* Debug */,
+				A2C0CF3AED23B7218B6A48BFC26ED5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41268AF552E2DC6A5873C87C81174F7D /* Debug */,
+				A345BCBDE6C296957161A3E85A47A280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

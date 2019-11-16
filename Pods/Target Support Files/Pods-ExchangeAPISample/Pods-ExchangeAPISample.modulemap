@@ -1,0 +1,6 @@
+framework module Pods_ExchangeAPISample {
+  umbrella header "Pods-ExchangeAPISample-umbrella.h"
+
+  export *
+  module * { export * }
+}
